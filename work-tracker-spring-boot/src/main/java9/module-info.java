@@ -20,5 +20,15 @@ open module com.deere.isg.worktracker.spring.boot {
     requires transitive com.deere.isg.worktracker.spring;
     requires spring.boot.starter.web;
     requires com.fasterxml.jackson.databind;
+    requires spring.webmvc;
+    requires spring.web;
+    requires spring.context;
+    requires tomcat.embed.core;
+    requires slf4j.api;
+    requires spring.boot.autoconfigure;
+    requires spring.boot;
+    requires logback.classic;
+    requires spring.beans;
+    requires java.sql;
     exports com.deere.isg.worktracker.spring.boot;
 }

@@ -20,5 +20,6 @@ open module com.deere.isg.worktracker.spring {
     requires transitive com.deere.isg.worktracker.servlet;
     requires spring.webmvc;
     requires javax.servlet.api;
+    requires spring.web;
     exports com.deere.isg.worktracker.spring;
 }
